@@ -23,12 +23,3 @@ export class AppComponent {
     this.tarefas$ = store.select(selectorSelecionaTarefa);
   }
 }
-
-/*  
-export const selectorContador = (estado: {contador: number}) => estado.contador;
-contador$: Observable<number>;
-
-  constructor(private store:Store<{contador:number}>) { 
-    this.contador$ = store.select(selectorContador);
-  }
-   */

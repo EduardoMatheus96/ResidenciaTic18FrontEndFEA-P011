@@ -11,5 +11,7 @@ export const removerTarefa = createAction(
     props<{ id: string }>()
 );
 
-//To do
-//atualizarTarefa = 
+export const atualizarTarefa = createAction(
+    '[Tarefa] Atualizar Tarefa',
+    props<{ id: string; descricao: string }>()
+);
